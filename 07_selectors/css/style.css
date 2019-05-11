@@ -1,20 +1,18 @@
-section{
-	color:blue;
-}
 div{
 	color:red;
 }
-
-#section2 {
-	color:pink;
+/*.sec {
+	color:purple ;
+}*/
+section {
+	color:red;
+}
+#section2{
+	color:blue;
 }
 footer div{
 	color:green;
 }
-
-nav,h2{
-color:grey;
-}
-main .firstSection {
-	background: lightblue;
+nav,h2 {
+	color:#D671EB;
 }

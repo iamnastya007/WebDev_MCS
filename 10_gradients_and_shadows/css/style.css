@@ -1,0 +1,16 @@
+.linear{
+	width: 300px;
+	height: 200px;
+	background-image: linear-gradient(to top, yellow 10%, red 10%, red 30% , blue 60% , green 90%);
+}
+
+.radial{
+	width: 500px;
+	height: 500px;
+	background-image: radial-gradient(black, red);
+}
+.shadow {
+	width: 300px;
+	height: 500px;
+	box-shadow:  20px 20px 10px green;
+}

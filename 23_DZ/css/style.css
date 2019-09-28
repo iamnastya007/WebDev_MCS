@@ -16,15 +16,20 @@
 .main{
 	height: 900px;
 	background-color: white;
+	text-align: center;
+	
 }
+.Blocks{
+	display: inline-block;
 
+}
 .section{
 	border:  5px solid #E5E000;
 	border-radius: 30px;
 	height: 800px;
 	width: 400px;	
 	display: inline-block;
-	margin: 50px 30px
+	margin: 50px 30px;
 }
 
 .sectionHeader{
@@ -56,14 +61,13 @@
 	font-family: Helvetica;
 	border: 1px solid red;
 	position: relative;
-	
+	padding: 20px;
+	box-sizing: border-box;
 }
 
-.copyright{
-	margin: 20px 20px;
-}
+
 .back{
-	top:20px;
+	top: 20px;
 	right:20px;
 	position: absolute;
 }

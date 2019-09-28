@@ -1,4 +1,4 @@
-.header{
+.header {
 	width: 500px;
 	height: 200px;
 	background-color: blue;
@@ -6,10 +6,13 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+
+
 }
-.bigsection{
+.bigSection{
 	height: 300px;
 	background-image: url(../img/image.jpg);
 	background-position: center;
 	background-attachment: fixed;
+
 }

@@ -1,0 +1,7 @@
+div{
+	width: 600px;
+	height: 600px;
+	background-color: navy;
+	border:200px solid red;
+	box-sizing: border-box;
+}

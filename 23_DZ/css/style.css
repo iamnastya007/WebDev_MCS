@@ -1,0 +1,69 @@
+
+.header{
+	height: 58px;
+	background-color: red;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 20px;
+	position: relative;
+	color:white;
+	border: 1px solid red;
+}
+.logo{
+	margin: 20px 20px;
+	font-size: 20px;
+}
+.main{
+	height: 900px;
+	background-color: white;
+}
+
+.section{
+	border:  5px solid #E5E000;
+	border-radius: 30px;
+	height: 800px;
+	width: 400px;	
+	display: inline-block;
+	margin: 50px 30px
+}
+
+.sectionHeader{
+	
+	font-size: 20pt;
+	font-weight: bold;
+	font-family: Helvetica;
+	margin: 25px 25px 35px 25px;
+
+
+}
+
+.pText{
+	line-height: 23px;
+	margin: 25px 25px;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+
+
+.footer{
+	height: 58px;
+	background-color: red;
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Helvetica;
+	border: 1px solid red;
+	position: relative;
+	
+}
+
+.copyright{
+	margin: 20px 20px;
+}
+.back{
+	top:20px;
+	right:20px;
+	position: absolute;
+}

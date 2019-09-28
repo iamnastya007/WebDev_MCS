@@ -1,7 +1,10 @@
 .bordered{
 	width: 500px;
 	height: 500px;
-	border: 5px inset red;
-	/*border-left:10px inset blue;*/
-	border-radius: 270px;
-	}
+	border-width: 2px;
+	border-color: navy;
+	border-style: dashed;
+	color: green;
+/*border-radius: 250px;*/
+	/*overflow: hidden;*/
+}

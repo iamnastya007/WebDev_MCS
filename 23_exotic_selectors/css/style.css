@@ -1,0 +1,24 @@
+.mainSection{
+	height: 300px;
+	background-color: black;
+	color: white;
+}
+
+.mainSection.first {
+	font-size: 20px;
+}
+
+.mainSection.second {
+	font-size: 50px;
+}
+a.red{
+	color:red;
+}
+
+.third ~ li{
+	color:red ;
+}
+
+.third + li {
+color:green;
+}

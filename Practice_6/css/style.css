@@ -1,0 +1,135 @@
+
+.header{
+	margin: 0 auto;
+	width: 1440px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 140px;
+	padding:0 50px;
+	color: #E50043;
+	font-size: 50px;
+	font-family: Arial;
+	font-style: normal;
+	box-sizing: border-box;
+	/*position: fixed;*/
+	/*position: sticky;*/
+	
+	
+
+}
+.header ul{
+	display: flex;
+}
+
+.header ul li{
+	margin-left: 10px;
+
+}
+.image{
+	height: 950px;
+	width: 100%;
+	background-image: url(../img/evian.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	color: #E50043;
+	font-size: 100px;
+	font-family: Arial;
+	font-style: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.main2{
+	margin: 140px auto;
+	width: 1040px;
+	height: 280px;
+	display: flex;
+	font-family: Arial;
+	font-size: 25px;
+	color: #000000;
+	border: 3px solid #F8BFC7;
+	border-radius: 20px;
+	letter-spacing: 1px;
+	padding: 20px;
+	line-height: 29px;
+	box-sizing: border-box;
+	
+}
+.main2.column{
+	flex-direction: column;
+
+}
+
+.h{
+	margin-bottom: 25px;
+}
+
+
+
+.main2.row{
+	flex-direction: row;
+	
+}
+.imageMain2row{
+	width: 25%;
+	background-image: url(../img/grass.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.innerMain2row {
+	margin: 25px 0;
+}
+
+
+.bottles{
+	display: flex;
+	/*justify-content: space-evenly;*/
+	justify-content: space-around;
+	margin: 0 150px;
+}
+
+.bottles.element{
+	flex-direction: column;
+
+}
+
+.bottles.element p {
+	font-family: Arial;
+	font-size: 25px;
+	font-style: normal;
+}
+
+
+.bottlesText{
+	display: flex;
+	margin: 20px auto;
+	align-items: center;
+	flex-direction: column;
+	font-family: Arial;
+	font-size: 25px;
+	font-style: normal;
+}
+
+.footer{
+	height: 100px;
+	width: 1440px;
+	background-color: #F8BFC7;
+	font-size: 50px;
+	font-family: Arial;
+	font-style: normal;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	padding:0 50px;
+	box-sizing: border-box;
+	
+}

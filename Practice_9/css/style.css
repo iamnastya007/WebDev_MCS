@@ -39,28 +39,26 @@ footer p{
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	background-color: red;
+	/*background-color: red;*/
 	flex-direction: column;
 	
 }
 
 @media all and (min-width: 667px) {
 	.blocks{
-		background-color: green;
-		width: 600px;
+		/*background-color: green;*/
+		width: 34%;
+		/*width: 600px;*/
 		height: 300px;
 		margin: 30px 15px;
 	}
 	.main{
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
-	.container{
-		flex-direction: column;
-
-	}
-	
 }
+	
 

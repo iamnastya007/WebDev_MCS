@@ -1,4 +1,11 @@
-
+body{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+/*footer {
+	flex: 0 0 auto;
+}*/
 
 .headerfooter{
 	height: 100px;

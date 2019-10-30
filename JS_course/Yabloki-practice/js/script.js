@@ -1,0 +1,10 @@
+deneg = prompt('Сколько у вас денег?');
+yablok = prompt('Сколько вы купили яблок?');
+baton = prompt('Сколько вы купили бытонов хлеба?');
+yabloksum = prompt('Сколько стоит одно яблоко?');
+yabloksum = parseFloat(yabloksum) * parseFloat(yablok);
+batonsum = prompt('Сколько стоит один батон хлеба?');
+batonsum = parseFloat(batonsum)*parseFloat(baton);
+allneed=yabloksum+batonsum;
+ifok=allneed<=parseFloat(deneg);
+console.log(ifok);
